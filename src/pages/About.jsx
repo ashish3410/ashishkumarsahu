@@ -65,6 +65,12 @@ function About() {
                         <p className='px-4 py-2 bg-gray-300 rounded-lg text-center justify-center items-center'>Django</p>
                         <p className='px-4 py-2 bg-gray-300 rounded-lg text-center justify-center items-center'>Bootstrap</p>
                     </div>
+                    <div className='flex mt-10'>
+                            <div className='font-semibold text-xl px-2 '>
+                                Download my resume:
+                            </div>
+                            <a className='mt-1 underline text-voilet-500' href="https://drive.google.com/file/d/1brLcHwLZEA99CAcWCZPo0FoPv_NED8dD/view?usp=drive_link">Click here</a>
+                        </div>
                 </div>
 
             </div>
