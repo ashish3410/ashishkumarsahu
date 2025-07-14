@@ -69,7 +69,7 @@ function About() {
                             <div className='font-semibold text-xl px-2 '>
                                 Download my resume:
                             </div>
-                            <a className='mt-1 underline text-voilet-500' href="https://drive.google.com/file/d/1brLcHwLZEA99CAcWCZPo0FoPv_NED8dD/view?usp=drive_link">Click here</a>
+                            <a className='mt-1 underline text-violet-500' href="https://drive.google.com/file/d/1bX56rd-Ohvd75ukISNLiIKyaD0cbzIke/view?usp=drivesdk">Click here</a>
                         </div>
                 </div>
 
