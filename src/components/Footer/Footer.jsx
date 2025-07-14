@@ -14,8 +14,8 @@ function Footer() {
                             <div>
                                 <h1 className='text-xl font-bold text-left text-white'>ASHISH KUMAR SAHU</h1>
                                 <p className="text-sm text-gray-100 mt-8">
-                                    A Passinate Web Developer building and managing Website and Web
-                                    Applications thats leads to the success of the overall products
+                                    A Passionate Web Developer building and managing Websites and Web
+                                    Applications that leads to the success of the overall products
 
 
                                 </p>
