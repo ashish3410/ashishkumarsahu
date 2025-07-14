@@ -11,6 +11,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import TicTacToe from './pages/TicTacToe.jsx'
 import MegaBlog from './pages/Blog.jsx'
+import Giphy from './pages/Giphy.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,25 +42,31 @@ const router = createBrowserRouter([
         {
             path: "/project-1",
             element: (
-              <Todo/>
+              <Giphy/>
             ),
         },
         {
-            path: "/project-2",
+            path: "/project-5",
             element: (
               <CurrencyConverter/>
             ),
         },
         {
-            path: "/project-3",
+            path: "/project-4",
             element: (
               <TicTacToe/>
             ),
         },
         {
-            path: "/project-4",
+            path: "/project-2",
             element: (
               <MegaBlog/>
+            ),
+        },
+        {
+            path: "/project-3",
+            element: (
+              <Todo/>
             ),
         },
     ],
