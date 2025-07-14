@@ -45,7 +45,7 @@ function Footer() {
                 </div>
                 <hr className=' mt-20' />
                 <div className='flex-row'>
-                    <p className='text-white text-sm text-center mt-10'> &copy; Copyright 2024. Made by <p className='underline'>Ashish Kumar Sahu</p></p>
+                    <p className='text-white text-sm text-center mt-10'> &copy; Copyright 2025. Made by <p className='underline'>Ashish Kumar Sahu</p></p>
                 </div>
             </div>
         </section>
