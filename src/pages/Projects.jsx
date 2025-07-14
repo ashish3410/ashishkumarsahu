@@ -28,7 +28,7 @@ function Projects() {
                     {/* Giphy project */}
                     <div className="flex flex-col lg:flex-row items-center lg:space-x-10">
                         <div className="w-full lg:w-1/2 flex justify-center">
-                            <img className="h-52 lg:h-80" src="https://aicdn.picsart.com/1f40c874-3a4a-4be2-ba27-973d881e4711.png" alt="Giphy Web App" />
+                            <img className="h-52 lg:h-80" src="https://i.ibb.co/qL9CZXch/giphy-removebg-preview.png" alt="Giphy Web App" />
                         </div>
                         <div className="w-full lg:w-1/2 mt-6 lg:mt-0 text-gray-600 text-center lg:text-left lg:px-16">
                             <h2 className="text-2xl font-bold text-black">Giphy web app for trending gifs</h2>
@@ -38,7 +38,6 @@ function Projects() {
                             <button onClick={() => navigate('/project-1')} className="inline-block px-6 py-2 mt-4 bg-violet-600 rounded-lg text-white">Project Detail</button>
                         </div>
                     </div>
-
                     {/* Blog App Project */}
                     <div className="flex flex-col lg:flex-row items-center lg:space-x-10">
                         <div className="w-full lg:w-1/2 flex justify-center">
