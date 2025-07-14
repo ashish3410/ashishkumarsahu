@@ -1,10 +1,11 @@
 import React,{useState} from 'react'
-import { NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 function Header() {
     const [isOpen, setIsOpen]=useState(false)
+    const navigate =useNavigate()
     return (
             <nav className="flex items-center justify-between flex-wrap">
-              <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
+              <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72 hover:cursor-pointer" onClick={()=>navigate('/')}>
                 <img src='https://i.ibb.co/8mPyfKY/mypic.jpg' className="h-10 w-10  my-2 ml-8 rounded-full" alt="Logo" />
                 <h1 className='text-black ml-4 font-bold'>ASHISH KUMAR SAHU</h1>
               </div>
